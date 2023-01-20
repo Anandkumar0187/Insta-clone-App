@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+.navbar{
+  width: 100%;
+  border: solid 1.5px #006400;
+  display: inline-flex;
+  
+}
+.navbar-left{
+  display: flex;
+  margin-left: 150px;
+}
+img{
+  width: 40px;
+  height: 40px;
+}
+.instaclone{
+  color: darkgreen;
+  margin-top: 8px;
+  font-size: 20px;
+}
+.camera{
+  margin-left: auto;
+  margin-right: 200px;
+}
+.container{
+  border: solid 1px;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  /* background-color: bisque; */
+}
+.header{
+  display: flex;
+  /* border: solid 1px; */
+}
+.header #name{
+  font-weight: bold;
+  margin-left: 10px;
+}
+.header #location{
+  margin-left: 10px;
+  color: lightgrey;
+  font-weight: 600;
+}
+.dots{
+  margin-left: auto;
+}
+.photos img{
+  width: 500px;
+  height: 500px;
+}
+.heart{
+  display: flex;
+}
+.heart img{
+  margin-left: 10px;
+}
+.heart .date{
+  margin-left: auto;
+  margin-right: 20px;
+}
+.likes{
+  margin-left: 10px;
+}
+.description{
+  margin: 10px;
+  font-weight: bold;
+}
+
+
+.landing-container{
+  display: flex;
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid green;
+}
+.landing-container img{
+  width: 400px;
+  height: 500px;
+}
+.landing-container h1{
+  margin-top: 200px;
+  margin-left: 50px;
+  /* margin: auto; */
+  color: green;
+}
+.landing-container button{
+  
+  margin-left: 100px;
+  color: green; 
+  border-radius: 10px;
+  border-color: green;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+}
+.form-data{
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 50px;
+  border: 1px solid black;
+}
+.first-data{
+  margin-top: 10px;
+}
+.middle-data{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.author{
+  width: 100px;
+}
+.location{
+  width: 100px;
+  margin-left: 15px;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+}
+.descript{
+  width: 223px;
+}
+.submit-btn{
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
